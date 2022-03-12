@@ -1,6 +1,6 @@
 
 # Responsible AI Workshop
-![Workshop logo](https://github.com/microsoft/responsible-ai- workshop/blob/master/rai-ws-banner.jpg)
+![Workshop logo](https://github.com/microsoft/responsible-ai-workshop/blob/main/rai-ws-banner.png)
 
 Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
 
@@ -21,17 +21,17 @@ It is thus designed to help you or your "customers" whoever they are to putting 
 This project is a work in progress (WIP).
 
 This project currently contains the following tutorials:
-* [Responsible AI Tooling Tutorials] https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
-* [End-to-End Responsible AI Lifecycle Walkthrough] (https://github.com/microsoft/responsible-ai-workshop/tree/master/lifecyle-walkthrough)
+* [Responsible AI Tooling Tutorials](https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
+* [End-to-End Responsible AI Lifecycle Walkthrough](https://github.com/microsoft/responsible-ai-workshop/tree/main/lifecycle-walkthrough)
 
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
 ## Additional resources 
 
-* [Establish a responsible AI strategy] (https://aka.ms/AIBS).
+* [Establish a responsible AI strategy](https://aka.ms/AIBS).
 * [Identify principles and practices for responsible AI]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
 * [Identify guiding principles for responsible AI in government]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-government-principles/).
-* [Design, build, and manage your AI-powered solution] (http://aka.ms/RAIresources).
+* [Design, build, and manage your AI-powered solution](http://aka.ms/RAIresources).
 
 # Contributing
 

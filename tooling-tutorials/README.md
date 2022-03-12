@@ -16,7 +16,7 @@ We investigate three categories of Responsible AI tools:
     - Differential privacy (DP)with the **SmartNoise** system.
 * Dashboards and user interfaces grouping such Responsible AI tools together under a single roof. Here we will look at **Responsible-AI-Widgets**.
 
-Responsible AI is still an underrated subject among data scientists and AI practitioners more broadly and today a huge gap between principles and practices exists when it comes to implementing AI systems in a more responsible manner. These tutorials are meant to accompany the guide "Leveraging Responsible AI Tooling for your AI-based solutions" which tackles exactly this issue and can be found under the docs folder.
+Responsible AI is still an underrated subject among data scientists and AI practitioners more broadly and today a huge gap between principles and practices exists when it comes to implementing AI systems in a more responsible manner. These tutorials are meant to accompany the guide [Leveraging Responsible AI Tooling for your AI-based solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/tooling-tutorials/docs/guide_leveraging_responsible_ai_tooling.docx),which tackles exactly this issue and can be found under the docs folder.
 
 As such, this guide is intended to:
 * Share and comment from the intended audience perspective an [ongoing journey towards Responsible AI (RAI)](https://aka.ms/RAIresources), starting from core principles from which this effort is deeply anchored to the translation into a set of practices to adopt, enforce, and evolve company-wide in terms of end-to-end lifecycle for the design, the development, the deployment, and the monitoring of these AI systems, 
