@@ -1,0 +1,4 @@
+onnxruntime==1.6
+numpy>=1.16.0
+catboost==0.26.1
+pandas==1.1.*

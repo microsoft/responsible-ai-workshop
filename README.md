@@ -1,4 +1,38 @@
 
+# Responsible AI Workshop
+![Workshop logo](https://github.com/microsoft/responsible-ai- workshop/blob/master/rai-ws-banner.jpg)
+
+Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
+
+Advancements in AI are indeed different than other technologies because of the pace of innovation – there has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level.
+
+There are a number of challenges and questions raised through the use of AI technologies. We refer to these impacts as socio-technical impacts. All of these have given rise to an industry debate about how the world should/shouldn’t use these new capabilities. It isn’t because you can do something that you should necessarily do it. 
+
+This project is an attempt to introduce and illustrate the use of: 
+* Resources designed to help you responsibly use AI at every stage of innovation - from concept to development, deployment, and beyond. 
+* Available toolkits & frameworks that help you integrate relevant features into your AI environment by themes and through the lifecycle stages.
+
+It is thus designed to help you or your "customers" whoever they are to putting Responsible AI into practices for your AI-powered solutions throughout their lifecycle.
+
+# Workshop Tutorials/Walkthroughs
+
+## Work in Progress
+
+This project is a work in progress (WIP).
+
+This project currently contains the following tutorials:
+* [Responsible AI Tooling Tutorials] https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
+* [End-to-End Responsible AI Lifecycle Walkthrough] (https://github.com/microsoft/responsible-ai-workshop/tree/master/lifecyle-walkthrough)
+
+Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
+
+## Additional resources 
+
+* [Establish a responsible AI strategy] (https://aka.ms/AIBS).
+* [Identify principles and practices for responsible AI]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
+* [Identify guiding principles for responsible AI in government]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-government-principles/).
+* [Design, build, and manage your AI-powered solution] (http://aka.ms/RAIresources).
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
