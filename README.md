@@ -26,11 +26,19 @@ This project currently contains the following tutorials:
 
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
-## Additional resources 
-
-* [Discover ways to foster an AI-ready culture in your business](https://docs.microsoft.com/en-us/learn/paths/foster-ai-ready-culture/)
-[Identify principles and practices for responsible AI](https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
+## Prerequisites
+The workshop is meant to be hands-on. So, the prerequisite of the workshop is a basic knowledge of any version of Python. It also assumes that you have a prior experience of training machine learning (ML) models with Python and open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
+One should also note that this workshop might also be introduced by the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) learning paths:
+* [Discover ways to foster an AI-ready culture in your business](https://docs.microsoft.com/en-us/learn/paths/foster-ai-ready-culture/).
+* [Identify principles and practices for responsible AI](https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
 * [Identify guiding principles for responsible AI in government](https://docs.microsoft.com/en-us/learn/paths/responsible-ai-government-principles/).
+
+## Additional resources
+
+From holistically transforming industries to addressing critical issues facing humanity, AI is already solving some of our most complex challenges and redefining how humans and technology interact. 
+
+You can visit our [Responsible AI resource center](https://www.microsoft.com/en-us/ai/responsible-ai) where you can find access to tools, guidelines, and additional resources that will help you create a (more) Responsible AI solution:
+* [Put Responsible AI into Practice webinar](https://info.microsoft.com/ww-put-responsible-ai-into-practice-On-Demand-Registration.html)(On Demand).
 * [Ten Guidelines for Product Leaders to implement AI Responsibly](https://aka.ms/RAITenGuidelines).
 * [Establish a responsible AI strategy](https://aka.ms/AIBS).
 * [Design, build, and manage your AI-powered solution](http://aka.ms/RAIresources).
