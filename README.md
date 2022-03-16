@@ -24,13 +24,15 @@ This project currently contains the following tutorials:
 * [Responsible AI Tooling Tutorials](https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
 * [End-to-End Responsible AI Lifecycle Walkthrough](https://github.com/microsoft/responsible-ai-workshop/tree/main/lifecycle-walkthrough)
 
-Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
+Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
 ## Additional resources 
 
+* [Discover ways to foster an AI-ready culture in your business](https://docs.microsoft.com/en-us/learn/paths/foster-ai-ready-culture/)
+[Identify principles and practices for responsible AI](https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
+* [Identify guiding principles for responsible AI in government](https://docs.microsoft.com/en-us/learn/paths/responsible-ai-government-principles/).
+* [Ten Guidelines for Product Leaders to implement AI Responsibly](https://aka.ms/RAITenGuidelines).
 * [Establish a responsible AI strategy](https://aka.ms/AIBS).
-* [Identify principles and practices for responsible AI]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-business-principles/).
-* [Identify guiding principles for responsible AI in government]( https://docs.microsoft.com/en-us/learn/paths/responsible-ai-government-principles/).
 * [Design, build, and manage your AI-powered solution](http://aka.ms/RAIresources).
 
 # Contributing
