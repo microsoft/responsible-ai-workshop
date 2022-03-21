@@ -4,15 +4,15 @@
 
 Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
 
-Advancements in AI are indeed different than other technologies because of the pace of innovation – there has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level.
+Advancements in AI are indeed different than other technologies because of the pace of innovation ï¿½ there has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level.
 
-There are a number of challenges and questions raised through the use of AI technologies. We refer to these impacts as socio-technical impacts. All of these have given rise to an industry debate about how the world should/shouldn’t use these new capabilities. It isn’t because you can do something that you should necessarily do it. 
+There are a number of challenges and questions raised through the use of AI technologies. We refer to these as socio-technical impacts. All of these have given rise to an industry debate about how the world should/shouldn't use these new capabilities. It isn't because you can do something that you should necessarily do it. 
 
 This project is an attempt to introduce and illustrate the use of: 
 * Resources designed to help you responsibly use AI at every stage of innovation - from concept to development, deployment, and beyond. 
-* Available toolkits & frameworks that help you integrate relevant features into your AI environment by themes and through the lifecycle stages.
+* Available toolkits & frameworks that help you integrate relevant Responsible AI features into your AI environment by themes and through the lifecycle stages of your AI system.
 
-It is thus designed to help you or your "customers" whoever they are to putting Responsible AI into practices for your AI-powered solutions throughout their lifecycle.
+It is thus designed to help you or your "customers", whoever they are, to put Responsible AI into practice for your AI-powered solutions throughout their lifecycle.
 
 # Workshop Tutorials/Walkthroughs
 
@@ -27,7 +27,8 @@ This project currently contains the following tutorials:
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
 ## Prerequisites
-The workshop is meant to be hands-on. So, the prerequisites of the workshop is a basic knowledge of any version of Python. It also assumes that you have a prior experience of training machine learning (ML) models with Python and open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
+
+The workshop is meant to be hands-on. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
 
 One should also note that this workshop might also be introduced by the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) learning paths:
 * [Discover ways to foster an AI-ready culture in your business](https://docs.microsoft.com/en-us/learn/paths/foster-ai-ready-culture/).
