@@ -11,6 +11,10 @@ We investigate three categories of Responsible AI tools:
 * Tools to **understand the behavior of AI systems**. These in turn fall into two categories covered here:
     - Tools to assess and mitigate fairness issues. Here we focus on **Fairlearn**.
     - Tools to understand and explain AI systems predictions. Here we focus on **InterpretML** and **Error Analysis**.
+* Tools to **understand how an AI model might be compromised** by adverserial attacks:
+    - Using **Counterfit** to perform a white-box attack on a vanilla model
+    - Using **Counterfit** to perform a black-box attack on a vanilla model
+    - Tools to avoid these attacks
 * Tools to **protect AI systems' data assets**: 
     - Data anonymization using **Presidio**.
     - Differential privacy (DP) with the **SmartNoise** system.
@@ -36,3 +40,11 @@ If you would like to go further and access more complete demos, we provide the l
 - [Error Analysis](https://github.com/microsoft/responsible-ai-widgets/blob/main/notebooks/erroranalysis-dashboard-multiclass.ipynb)
 - [Presidio](https://github.com/microsoft/presidio/blob/main/docs/samples/python/presidio_notebook.ipynb)
 - [SmartNoise](https://github.com/opendp/smartnoise-samples/blob/master/whitepaper-demos/2-reidentification-attack.ipynb) 
+- [Counterfit](https://github.com/Azure/counterfit)
+
+## Additional references
+- [ENISA Report: Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)
+- [ENISA Report: Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
+- [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/en-us/securityengineering/sdl)
+- [Microsoft SDL practices](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
+- [Microsoft Threat Modeling](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
