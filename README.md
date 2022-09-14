@@ -11,7 +11,7 @@ There are a number of challenges and questions raised through the use of AI tech
 This project is an attempt to introduce and illustrate the use of: 
 * Resources designed to help you responsibly use AI at every stage of innovation - from concept to development, deployment, and beyond. 
 * Available toolkits & frameworks that help you integrate relevant Responsible AI features into your AI environment by themes and through the lifecycle stages of your AI system.
-
+* Activities to strengthen gradually the confidence that we can have in this technology and therefore facilitate its adoption in contexts where it would have a great responsibility.
 
 It is thus designed to help you or your "customers", whoever they are, to put Responsible AI into practice for your AI-powered solutions throughout their lifecycle.
 
@@ -24,7 +24,7 @@ This project is a work in progress (WIP).
 This project currently contains the following tutorials:
 * [Responsible AI Tooling Tutorials](https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
 * [End-to-End Responsible AI Lifecycle Walkthrough](https://github.com/microsoft/responsible-ai-workshop/tree/main/lifecycle-walkthrough)
-
+* [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/trustworthy-ai-lifecycle/tree/main/)
 
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
