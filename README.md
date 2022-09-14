@@ -24,7 +24,7 @@ This project is a work in progress (WIP).
 This project currently contains the following tutorials:
 * [Responsible AI Tooling Tutorials](https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
 * [End-to-End Responsible AI Lifecycle Walkthrough](https://github.com/microsoft/responsible-ai-workshop/tree/main/lifecycle-walkthrough)
-* [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/trustworthy-ai-lifecycle/tree/main/)
+* [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/responsible-ai-workshop/tree/main/trustworthy-ai-lifecycle)
 
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
