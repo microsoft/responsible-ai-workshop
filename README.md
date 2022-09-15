@@ -41,7 +41,11 @@ One should also note that this workshop might also be introduced by the followin
 
 From holistically transforming industries to addressing critical issues facing humanity, AI is already solving some of our most complex challenges and redefining how humans and technology interact. 
 
-You can visit our [Responsible AI resource center](https://www.microsoft.com/en-us/ai/responsible-ai) where you can find access to tools, guidelines, and additional resources that will help you create a (more) Responsible AI solution:
+You read the publicly shared [Microsoft Responsible AI Standard](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf), i.e., a framework to guide how Microsoft build AI systems. It is an important step in our journey to develop better, more trustworthy AI systems. We are releasing our latest Responsible AI Standard to share what we have learned, invite feedback from others, and contribute to the discussion about building better norms and practices around AI. 
+
+For those wanting to dig into our approach further, we have also made available some key resources that support the Responsible AI Standard: notably our [Impact Assessment template](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Template.pdf) and [guide](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Guide.pdf). Impact Assessments have proven valuable at Microsoft to ensure teams explore the impact of their AI system – including its stakeholders, intended benefits, and potential harms – in depth at the earliest design stages. 
+
+In addition, you can also visit our [Responsible AI resource center](https://www.microsoft.com/en-us/ai/responsible-ai) where you can find access to tools, guidelines, and additional resources that will help you create a (more) Responsible AI solution:
 * [Put Responsible AI into Practice webinar](https://info.microsoft.com/ww-put-responsible-ai-into-practice-On-Demand-Registration.html) (On Demand).
 * [Ten Guidelines for Product Leaders to implement AI Responsibly](https://aka.ms/RAITenGuidelines).
 * [Establish a responsible AI strategy](https://aka.ms/AIBS).
