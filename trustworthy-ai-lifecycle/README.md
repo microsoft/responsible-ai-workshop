@@ -8,7 +8,7 @@ This mistrust is quite normal and comes mainly from the fact that we do not know
 
 The [MITRE ATLAS™](https://atlas.mitre.org/) framework lists a number of attacks that can be implemented against a ML model. Among them, adversarial attacks. 
 
-In this repository, you will find an [implementation of an adversarial attack](https://github.com/microsoft/responsible-ai-workshop/blob/main/tooling-tutorials/hands_on_tutorials/adverserial_attacks_counterfit/adverserial_attacks_counterfit.ipynb) executed against a computer vision model using [Counterfit](https://github.com/Azure/counterfit), a tool specially designed to carry out these types of attacks. 
+In this repository, you will find an [implementation of an adversarial attack](https://github.com/microsoft/responsible-ai-workshop/blob/main/trustworthy_ai_lifecycle/hands_on_tutorials/adverserial_attacks_counterfit.ipynb) executed against a computer vision model using [Counterfit](https://github.com/Azure/counterfit), a tool specially designed to carry out these types of attacks. 
 
 In addition to this demonstration, the guide [Establishing a (more) Trustworthy AI Lifecycle for your AI-powered solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/trustworthy-ai-lifecycle/docs/guide_building_trustworthy_ai_lifecycle.docx) goes into more details about how the attack works and addresses the question of how to build trust in a ML-based project and the related development lifecycle.
 
