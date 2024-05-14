@@ -2,16 +2,16 @@
 # Responsible AI Workshop
 ![Workshop logo](https://github.com/microsoft/responsible-ai-workshop/blob/main/rai-ws-banner.png)
 
-Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
+Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy (Generative) Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
 
-Advancements in AI are indeed different than other technologies because of the pace of innovation. There has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level.
+Advancements in AI, and more specifically in Generative AI, are indeed different than other technologies because of the pace of innovation. There has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level. 
 
 There are a number of challenges and questions raised through the use of AI technologies. We refer to these as socio-technical impacts. All of these have given rise to an industry debate about how the world should/shouldn't use these new capabilities. It isn't because you can do something that you should necessarily do it. 
 
 This project is an attempt to introduce and illustrate the use of: 
-* Resources designed to help you responsibly use AI at every stage of innovation - from concept to development, deployment, and beyond. 
-* Available toolkits & frameworks that help you integrate relevant Responsible AI features into your AI environment by themes and through the lifecycle stages of your AI system.
-* Activities to strengthen gradually the confidence that we can have in this technology and therefore facilitate its adoption in contexts where it would have a great responsibility.
+* Resources designed to help you responsibly use (Generative) AI at every stage of innovation - from ideation to design, development, deployment, and beyond. 
+* Available toolkits & frameworks that help you integrate relevant Responsible AI features into your (Generative) AI environment by themes and through the lifecycle stages of your AI system.
+* Activities to strengthen gradually the confidence that we can have in these technologies and therefore facilitate its adoption in contexts where it would have a great responsibility.
 
 It is thus designed to help you or your "customers", whoever they are, to put Responsible AI into practice for your AI-powered solutions throughout their lifecycle.
 
@@ -25,12 +25,13 @@ This project currently contains the following tutorials:
 * [Responsible AI Tooling Tutorials](https://github.com/microsoft/responsible-ai-workshop/tree/master/tooling-tutorials)
 * [End-to-End Responsible AI Lifecycle Walkthrough](https://github.com/microsoft/responsible-ai-workshop/tree/main/lifecycle-walkthrough)
 * [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/responsible-ai-workshop/tree/main/trustworthy-ai-lifecycle)
+* [Building and using generative AI responsibly](https://github.com/microsoft/responsible-ai-workshop/tree/main/building-generative-ai-responsibly)
 
 Each of the above tutorials consists of a series of modules for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.
 
 ## Prerequisites
 
-The workshop is meant to be hands-on. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
+The workshop is meant to be hands-on. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes for some of the tutorials that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
 
 One should also note that this workshop might also be introduced by the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) learning paths:
 * [Discover ways to foster an AI-ready culture in your business](https://docs.microsoft.com/en-us/learn/paths/foster-ai-ready-culture/).
@@ -39,7 +40,7 @@ One should also note that this workshop might also be introduced by the followin
 
 ## Additional resources
 
-From holistically transforming industries to addressing critical issues facing humanity, AI is already solving some of our most complex challenges and redefining how humans and technology interact. 
+From holistically transforming industries to addressing critical issues facing humanity, (Generative) AI is already solving some of our most complex challenges and redefining how humans and technology interact. 
 
 You can read the publicly shared [Microsoft Responsible AI Standard](https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf), i.e., a framework to guide how Microsoft build AI systems. It is an important step in our journey to develop better, more trustworthy AI systems. We are releasing our latest Responsible AI Standard to share what we have learned, invite feedback from others, and contribute to the discussion about building better norms and practices around AI. 
 
