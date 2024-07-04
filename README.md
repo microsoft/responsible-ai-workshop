@@ -1,5 +1,5 @@
 
-# Responsible AI Workshop
+![Workshop logo](https://github.com/microsoft/responsible-ai-workshop/blob/main/rai_ws_banner.png)
 
 Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy (non-Generative vs. Generative) Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
 
@@ -84,4 +84,3 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
 
-![Workshop logo](https://github.com/microsoft/responsible-ai-workshop/blob/main/rai_ws_banner.png)
