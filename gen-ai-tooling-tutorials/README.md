@@ -10,7 +10,7 @@ This module delves into the journey of building and using Generative AI applicat
 
 As such, in terms of learning objectives, the guide [Building and using Generative AI responsibly with Azure and beyond](https://github.com/microsoft/responsible-ai-workshop/blob/main/gen-ai-tooling-tutorials/docs/buildling-and-using-gen-ai-responsibly.docx) covers the above core functions, outlines the layers of a Generative AI application where responsible AI mitigations can be implemented starting from the model up to the user experience (UX). It in turn illustrates them via an end-to-end hands-on tutorial with all the  [necessary scripts and other definition files](https://github.com/microsoft/responsible-ai-workshop/blob/main/gen-ai-tooling-tutorials/hands-on-tutorials/) to reproduce the outlined activities.
 
-Eventually, the companion eponym presentation [Building and using Generative AI responsibly with Azure and beyond](https://github.com/microsoft/responsible-ai-workshop/blob/main/gen-ai-tooling-tutorials/ppts/buildling-and-using-gen-ai-responsibly.pptx) provides a ready-to-use fully annotated content to organize a dedicated session.
+Eventually, the companion eponym presentation [Building and using Generative AI responsibly with Azure and beyond](https://github.com/microsoft/responsible-ai-workshop/blob/main/gen-ai-tooling-tutorials/ppts/building-and-using-gen-ai-responsibly.pptx) provides a ready-to-use fully annotated content to organize a dedicated session.
 
 ## Additional references
 * [AI Risk Management Framework (AI RMF)](https://www.nist.gov/itl/ai-risk-management-framework)

@@ -24,7 +24,7 @@ This project is a work in progress (WIP).
 This project currently contains the following tutorials:
 * [Towards your own Responsible AI journey](https://github.com/microsoft/responsible-ai-workshop/tree/master/responsible-ai-journey)
 * [Responsible AI Tooling Tutorials for Non-Generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/master/nongen-ai-tooling-tutorials)
-* [End-to-End Responsible AI Lifecycle Walkthrough for Non-Generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/main/nongen-ai-lifecycle_walkthrough)
+* [End-to-End Responsible AI Lifecycle Walkthrough for Non-Generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/main/nongen-ai-lifecycle-walkthrough)
 * [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/responsible-ai-workshop/tree/main/trustworthy-ai-lifecycle)
 * [Building and using Generative AI responsibly](https://github.com/microsoft/responsible-ai-workshop/tree/main/gen-ai-tooling-tutorials)
 
