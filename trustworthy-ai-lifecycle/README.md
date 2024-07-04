@@ -11,7 +11,7 @@ The [MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems (ATL
 
 Among them, adversarial attacks (and perturbations) are a growing concern in the field of Machine Learning (ML). As an illustration, you will find, in this repository, an [implementation of an adversarial attack againt a ML model](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-tooling-tutorials/hands-on-tutorials/adverserial_attacks_counterfit/adverserial_attacks_counterfit.ipynb) executed against a computer vision model using [Counterfit](https://github.com/Azure/counterfit), i.e., a tool specially designed to carry out these types of attacks. 
 
-In addition to this demonstration, the guide [Framing a (more) Trustworthy AI Lifecycle for your AI-powered solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-trustworthy-ai-lifecycle/docs/framing-trustworthy-ai-lifecycle.docx) goes into more details about how the attack works and addresses the question of how to build trust in a ML-based project and the related development lifecycle.
+In addition to this demonstration, the guide [Framing a (more) Trustworthy AI Lifecycle for your AI-powered solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/trustworthy-ai-lifecycle/docs/framing-trustworthy-ai-lifecycle.docx) goes into more details about how the attack works and addresses the question of how to build trust in a ML-based project and the related development lifecycle.
 
 The learning objectives of this guide are to help moving towards a (more) reliable AI lifecycle in order to gradually strengthen the trust we can have in this technology and therefore facilitate its adoption in contexts where it would have a great responsibility.
 
