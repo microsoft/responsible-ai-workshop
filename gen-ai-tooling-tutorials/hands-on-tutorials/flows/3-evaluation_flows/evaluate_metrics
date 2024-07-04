@@ -1,0 +1,28 @@
+import os
+import json
+import pandas as pd
+from promptflow.client import load_flow
+
+data_path = "eval_data/data.jsonl"
+
+df = pd.read_json(data_path, lines=True)
+df.head()
+from promptflow.core import AzureOpenAIModelConfiguration
+
+# Initialize Azure OpenAI Connection
+model_config = AzureOpenAIModelConfiguration(
+        azure_deployment="gpt-35-turbo",
+        api_version=os.environ["AZURE_OPENAI_API_VERSION"],
+        azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"]
+    )
+
+df = pd.read_json(data_path, lines=True)
+df.head()
+
+
+
+# load apology evaluatorfrom prompty
+groundedness_eval = load_flow(source="prompty/groundedness.prompty", model={"configuration": model_config})
+fluency_eval = load_flow(source="prompty/fluency.prompty", model={"configuration": model_config})
+coherence_eval = load_flow(source="prompty/coherence.prompty", model={"configuration": model_config})
+relevance_eval = load_flow(source="prompty/relevance.prompty", model={"configuration": model_config})

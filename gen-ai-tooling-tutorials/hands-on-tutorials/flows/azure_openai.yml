@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/OpenAIConnection.schema.json
+name: USER_INPUT
+api_base: USER_INPUT
+type: azure_open_ai OR open_ai
+api_key: USER_INPUT

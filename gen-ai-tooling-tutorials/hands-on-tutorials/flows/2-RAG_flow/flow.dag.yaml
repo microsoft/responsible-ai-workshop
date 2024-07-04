@@ -1,0 +1,117 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  chat_history:
+    type: list
+    default: []
+    is_chat_history: true
+  pdf_urls:
+    type: list
+    default:
+    - https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-RAI-Impact-Assessment-Guide.pdf
+    - https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1l5BO
+    - https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf
+  question:
+    type: string
+    is_chat_input: true
+    default: What is an AI Impact Assessment at Microsoft ?
+  config:
+    type: object
+    default:
+      EMBEDDING_MODEL_DEPLOYMENT_NAME: text-embedding-ada-002
+      CHAT_MODEL_DEPLOYMENT_NAME: gpt-35-turbo
+      PROMPT_TOKEN_LIMIT: 3000
+      MAX_COMPLETION_TOKENS: 1024
+      VERBOSE: true
+      CHUNK_SIZE: 1024
+      CHUNK_OVERLAP: 64
+outputs:
+  answer:
+    type: string
+    is_chat_output: true
+    reference: ${qna_tool.output.answer}
+  context:
+    type: string
+    reference: ${find_context_tool.output.context}
+  groundedness:
+    type: string
+    reference: ${parse_score.output}
+nodes:
+- name: setup_env
+  type: python
+  source:
+    type: code
+    path: setup_env.py
+  inputs:
+    connection: azure_open_ai_connection
+    config: ${inputs.config}
+- name: download_tool
+  type: python
+  source:
+    type: code
+    path: download_tool.py
+  inputs:
+    urls: ${inputs.pdf_urls}
+    env_ready_signal: ${setup_env.output}
+- name: build_index_tool
+  type: python
+  source:
+    type: code
+    path: build_index_tool.py
+  inputs:
+    pdf_paths: ${download_tool.output}
+- name: find_context_tool
+  type: python
+  source:
+    type: code
+    path: find_context_tool.py
+  inputs:
+    question: ${rewrite_question_tool.output}
+    index_paths: ${build_index_tool.output}
+- name: qna_tool
+  type: python
+  source:
+    type: code
+    path: qna_tool.py
+  inputs:
+    prompt: ${find_context_tool.output.prompt}
+    history: ${inputs.chat_history}
+- name: rewrite_question_tool
+  type: python
+  source:
+    type: code
+    path: rewrite_question_tool.py
+  inputs:
+    question: ${inputs.question}
+    history: ${inputs.chat_history}
+    env_ready_signal: ${setup_env.output}
+- name: parse_score
+  type: python
+  source:
+    type: code
+    path: calc_groundedness.py
+  inputs:
+    gpt_score: ${gpt_groundedness.output}
+- name: aggregate
+  type: python
+  source:
+    type: code
+    path: aggregate.py
+  inputs:
+    groundedness_scores: ${parse_score.output}
+  aggregation: true
+- name: gpt_groundedness
+  type: llm
+  source:
+    type: code
+    path: gpt_groundedness.md
+  inputs:
+    deployment_name: gpt-35-turbo
+    model: gpt-35-turbo
+    max_tokens: 5
+    answer: ${qna_tool.output.answer}
+    question: ${inputs.question}
+    context: ${build_index_tool.output}
+  connection: azure_open_ai_connection
+  api: chat

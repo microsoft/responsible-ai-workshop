@@ -1,0 +1,1 @@
+az container create -g rg-responsible-ai --name loan-decision --image $Env:acrLoginServer/$Env:acrImage --cpu 1 --memory 1 --registry-login-server $Env:acrLoginServer --registry-username $Env:acrName --registry-password $Env:acrPassword --ports 80

@@ -1,0 +1,155 @@
+{
+  "package": {},
+  "code": {
+    "setup_env.py": {
+      "type": "python",
+      "inputs": {
+        "connection": {
+          "type": [
+            "AzureOpenAIConnection",
+            "OpenAIConnection"
+          ]
+        },
+        "config": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "source": "setup_env.py",
+      "function": "setup_env"
+    },
+    "download_tool.py": {
+      "type": "python",
+      "inputs": {
+        "urls": {
+          "type": [
+            "list"
+          ]
+        },
+        "env_ready_signal": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "download_tool.py",
+      "function": "download_tool"
+    },
+    "build_index_tool.py": {
+      "type": "python",
+      "inputs": {
+        "pdf_paths": {
+          "type": [
+            "list"
+          ]
+        }
+      },
+      "source": "build_index_tool.py",
+      "function": "build_index_tool"
+    },
+    "find_context_tool.py": {
+      "type": "python",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        },
+        "index_paths": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "description": "Returns:\n- dict: A dictionary containing the prompt and a list of contexts.",
+      "source": "find_context_tool.py",
+      "function": "find_context_tool"
+    },
+    "qna_tool.py": {
+      "type": "python",
+      "inputs": {
+        "prompt": {
+          "type": [
+            "string"
+          ]
+        },
+        "history": {
+          "type": [
+            "list"
+          ]
+        }
+      },
+      "source": "qna_tool.py",
+      "function": "qna_tool"
+    },
+    "rewrite_question_tool.py": {
+      "type": "python",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ]
+        },
+        "history": {
+          "type": [
+            "list"
+          ]
+        },
+        "env_ready_signal": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "rewrite_question_tool.py",
+      "function": "rewrite_question_tool"
+    },
+    "calc_groundedness.py": {
+      "type": "python",
+      "inputs": {
+        "gpt_score": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "calc_groundedness.py",
+      "function": "parse_score"
+    },
+    "aggregate.py": {
+      "type": "python",
+      "inputs": {
+        "groundedness_scores": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "description": "This tool aggregates the processed result of all lines to the variant level and log metric for each variant.\n\n:param processed_results: List of the output of line_process node.\n:param variant_ids: List of variant ids that can be used to group the results by variant.\n:param line_numbers: List of line numbers of the variants. If provided, this can be used to\n                    group the results by line number.",
+      "source": "aggregate.py",
+      "function": "aggregate"
+    },
+    "gpt_groundedness.md": {
+      "type": "llm",
+      "inputs": {
+        "answer": {
+          "type": [
+            "string"
+          ]
+        },
+        "question": {
+          "type": [
+            "string"
+          ]
+        },
+        "context": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "gpt_groundedness.md"
+    }
+  }
+}

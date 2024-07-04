@@ -1,0 +1,31 @@
+##START OF BASIC GROUNDEDNESS
+- name: parse_score
+  type: python
+  source:
+    type: code
+    path: calc_groundedness.py
+  inputs:
+    gpt_score: ${gpt_groundedness.output}
+- name: aggregate
+  type: python
+  source:
+    type: code
+    path: aggregate.py
+  inputs:
+    groundedness_scores: ${parse_score.output}
+  aggregation: true
+- name: gpt_groundedness
+  type: llm
+  source:
+    type: code
+    path: gpt_groundedness.md
+  inputs:    
+    deployment_name: gpt-35-turbo
+    model: gpt-35-turbo
+    max_tokens: 5
+    answer: ${qna_tool.output.answer}
+    question: ${inputs.question}
+    context: ${build_index_tool.output}
+  connection: azure_open_ai_connection
+  api: chat
+##END OF BASIC GROUNDEDNESS

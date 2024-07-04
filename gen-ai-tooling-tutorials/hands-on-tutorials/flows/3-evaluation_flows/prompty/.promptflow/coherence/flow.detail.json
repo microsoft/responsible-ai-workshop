@@ -1,0 +1,230 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "08570c33-90c4-4519-a8bb-6465dad5e883_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "question": "What can you tell me about artifical intelligence and its impact on society ?",
+        "context": "Artificial intelligence (AI) has far-reaching social implications, both positive and negative. As AI systems become more advanced and integrated into society, there are concerns about job displacement. AI-driven automation has the potential to replace traditional jobs, exacerbating income inequality and leaving certain workers without viable employment opportunities. AI’s expanding role in critical decision-making raises ethical quandaries. Bias and discrimination are pervasive issues across sectors, including medicine. Ensuring accountability and regulation is crucial to address these challenges. AI relies on vast amounts of data. Balancing innovation with privacy protection is essential to prevent misuse of personal information.AI can revolutionize industries, but it also disrupts economies. Adapting to this transformation requires thoughtful planning and policies.The rapid pace of technological advancements can catch us off guard. We must stay informed and engaged to shape AI’s impact on our lives.",
+        "answer": "Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns"
+      },
+      "output": {
+        "output": "5"
+      },
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "08570c33-90c4-4519-a8bb-6465dad5e883",
+      "root_run_id": "08570c33-90c4-4519-a8bb-6465dad5e883",
+      "source_run_id": null,
+      "flow_id": "default_flow_id",
+      "start_time": "2024-06-25T09:38:56.602015Z",
+      "end_time": "2024-06-25T09:38:57.102151Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "QnA Coherence Evaluation",
+          "type": "Function",
+          "inputs": {
+            "question": "What can you tell me about artifical intelligence and its impact on society ?",
+            "context": "Artificial intelligence (AI) has far-reaching social implications, both positive and negative. As AI systems become more advanced and integrated into society, there are concerns about job displacement. AI-driven automation has the potential to replace traditional jobs, exacerbating income inequality and leaving certain workers without viable employment opportunities. AI’s expanding role in critical decision-making raises ethical quandaries. Bias and discrimination are pervasive issues across sectors, including medicine. Ensuring accountability and regulation is crucial to address these challenges. AI relies on vast amounts of data. Balancing innovation with privacy protection is essential to prevent misuse of personal information.AI can revolutionize industries, but it also disrupts economies. Adapting to this transformation requires thoughtful planning and policies.The rapid pace of technological advancements can catch us off guard. We must stay informed and engaged to shape AI’s impact on our lives.",
+            "answer": "Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns"
+          },
+          "output": "5",
+          "start_time": 1719301136.603074,
+          "end_time": 1719301137.095986,
+          "error": null,
+          "children": [
+            {
+              "name": "Prompty",
+              "type": "Function",
+              "inputs": {
+                "question": "What can you tell me about artifical intelligence and its impact on society ?",
+                "context": "Artificial intelligence (AI) has far-reaching social implications, both positive and negative. As AI systems become more advanced and integrated into society, there are concerns about job displacement. AI-driven automation has the potential to replace traditional jobs, exacerbating income inequality and leaving certain workers without viable employment opportunities. AI’s expanding role in critical decision-making raises ethical quandaries. Bias and discrimination are pervasive issues across sectors, including medicine. Ensuring accountability and regulation is crucial to address these challenges. AI relies on vast amounts of data. Balancing innovation with privacy protection is essential to prevent misuse of personal information.AI can revolutionize industries, but it also disrupts economies. Adapting to this transformation requires thoughtful planning and policies.The rapid pace of technological advancements can catch us off guard. We must stay informed and engaged to shape AI’s impact on our lives.",
+                "answer": "Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns"
+              },
+              "output": "5",
+              "start_time": 1719301136.604053,
+              "end_time": 1719301137.094985,
+              "error": null,
+              "children": [
+                {
+                  "name": "convert_prompt_template",
+                  "type": "Function",
+                  "inputs": {
+                    "template": "System:\nYou are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric.\n\nUser:\nCoherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about artifical intelligence and its impact on society ?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nquestion: {{question}}\nanswer: {{answer}}\nstars:",
+                    "inputs": {
+                      "question": "What can you tell me about artifical intelligence and its impact on society ?",
+                      "context": "Artificial intelligence (AI) has far-reaching social implications, both positive and negative. As AI systems become more advanced and integrated into society, there are concerns about job displacement. AI-driven automation has the potential to replace traditional jobs, exacerbating income inequality and leaving certain workers without viable employment opportunities. AI’s expanding role in critical decision-making raises ethical quandaries. Bias and discrimination are pervasive issues across sectors, including medicine. Ensuring accountability and regulation is crucial to address these challenges. AI relies on vast amounts of data. Balancing innovation with privacy protection is essential to prevent misuse of personal information.AI can revolutionize industries, but it also disrupts economies. Adapting to this transformation requires thoughtful planning and policies.The rapid pace of technological advancements can catch us off guard. We must stay informed and engaged to shape AI’s impact on our lives.",
+                      "answer": "Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns"
+                    }
+                  },
+                  "output": [
+                    {
+                      "role": "system",
+                      "content": "You are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric."
+                    },
+                    {
+                      "role": "user",
+                      "content": "Coherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about artifical intelligence and its impact on society ?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nquestion: What can you tell me about artifical intelligence and its impact on society ?\nanswer: Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns\nstars:"
+                    }
+                  ],
+                  "start_time": 1719301136.606055,
+                  "end_time": 1719301136.61206,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "9072a34d-45e1-4335-9b73-4f93e8aa2ad6",
+                  "id": "3a59d0c2-feec-4c45-bcac-def17fcc9d46",
+                  "function": "convert_prompt_template",
+                  "system_metrics": {}
+                },
+                {
+                  "name": "openai_chat",
+                  "type": "LLM",
+                  "inputs": {
+                    "max_tokens": 128,
+                    "temperature": 0.2,
+                    "model": "gpt-35-turbo",
+                    "messages": [
+                      {
+                        "role": "system",
+                        "content": "You are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric."
+                      },
+                      {
+                        "role": "user",
+                        "content": "Coherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about artifical intelligence and its impact on society ?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nquestion: What can you tell me about artifical intelligence and its impact on society ?\nanswer: Artificial intelligence has the potential to greatly impact society in both positive and negative ways. On the positive side, AI can improve efficiency and productivity in various industries, such as healthcare and transportation. It can also help solve complex problems and make predictions based on large amounts of data. However, there are also concerns about the negative impact of AI, such as job displacement, bias in decision-making, and the potential for AI to be used for harmful purposes. Responsible AI aims to address these concerns\nstars:"
+                      }
+                    ]
+                  },
+                  "output": {
+                    "id": "chatcmpl-9dwve749PHtN0Ey87qOUE3WIg48Jb",
+                    "choices": [
+                      {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                          "content": "5",
+                          "role": "assistant",
+                          "function_call": null,
+                          "tool_calls": null
+                        },
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ],
+                    "created": 1719308342,
+                    "model": "gpt-35-turbo",
+                    "object": "chat.completion",
+                    "service_tier": null,
+                    "system_fingerprint": null,
+                    "usage": {
+                      "completion_tokens": 1,
+                      "prompt_tokens": 561,
+                      "total_tokens": 562
+                    },
+                    "prompt_filter_results": [
+                      {
+                        "prompt_index": 0,
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "profanity": {
+                            "filtered": false,
+                            "detected": false
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "start_time": 1719301136.629278,
+                  "end_time": 1719301137.094985,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "9072a34d-45e1-4335-9b73-4f93e8aa2ad6",
+                  "id": "b95b0b4a-3718-4b60-9965-75b9ad027a09",
+                  "function": "openai.resources.chat.completions.Completions.create",
+                  "system_metrics": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 561,
+                    "total_tokens": 562
+                  }
+                }
+              ],
+              "node_name": null,
+              "parent_id": "bdf03bcf-248e-402c-8c9e-3b1a00fa27d4",
+              "id": "9072a34d-45e1-4335-9b73-4f93e8aa2ad6",
+              "function": "Prompty",
+              "system_metrics": {
+                "completion_tokens": 1,
+                "prompt_tokens": 561,
+                "total_tokens": 562
+              }
+            }
+          ],
+          "node_name": null,
+          "parent_id": "",
+          "id": "bdf03bcf-248e-402c-8c9e-3b1a00fa27d4",
+          "function": "Prompty",
+          "system_metrics": {
+            "completion_tokens": 1,
+            "prompt_tokens": 561,
+            "total_tokens": 562
+          }
+        }
+      ],
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "completion_tokens": 1,
+        "prompt_tokens": 561,
+        "total_tokens": 562,
+        "duration": 0.500136
+      },
+      "result": {
+        "output": "5"
+      },
+      "upload_metrics": false,
+      "otel_trace_id": "0xf42bf00c2bf7b35fd4b2d09dafeb784f",
+      "message_format": "basic"
+    }
+  ],
+  "node_runs": []
+}
