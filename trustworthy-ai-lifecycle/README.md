@@ -42,6 +42,7 @@ For the sake of the Proof of Concept available in the walkthrough, we use the [G
 
 ## References
 
+The following references are used in this module:
 * [MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems (ATLAS™)](https://atlas.mitre.org/matrices/ATLAS)
 * [Adversarial Machine Learning - Industry Perspectives](https://arxiv.org/pdf/2002.05646.pdf)
 * [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
@@ -49,6 +50,7 @@ For the sake of the Proof of Concept available in the walkthrough, we use the [G
 
 ## Additional references
 
+In addition to this module, for the learning objectives, you might also consider the following resources:
 * [ENISA Report: Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)
 * [ENISA Report: Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
 * [ENISA Report: Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)   

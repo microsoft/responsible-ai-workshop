@@ -47,7 +47,7 @@ Before starting this module, and as far as your execution environment is concern
 
 ## Additional resources
 
-In addition to this module, you might also consider the following resources:
+In addition to this module, for the learning objectives, you might also consider the following resources:
 * [ENISA Report: Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)
 * [ENISA Report: Securing Machine Learning Algorithms](https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms)
 * [ENISA Report: Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai)   
