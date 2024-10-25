@@ -6,9 +6,9 @@ Let's look at how to create a LLM model with Azure and how to deploy it in Pytho
 
 Please make sure you have completed all the instructions in [Getting started with Azure](getting-started-with-azure.md) beforehand so that you have created your Azure account, your Hub and your project in [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/)!  
 
-You might consider completing the [Introduction to Azure AI Studio] module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/).
+You might consider completing the [Introduction to Azure AI Studio](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/) module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/).
 
-## Deploying an Large Language Model (LLM) in Azure
+## Deploying a Large Language Model (LLM) in Azure
 
 Proceed with the following steps: 
 

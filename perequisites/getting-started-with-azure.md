@@ -51,9 +51,9 @@ Process with the following steps:
 
     g. Click **Next**. 
 
-## Create a Project 
+## Create a project 
 
-After creating the hub, we can now create a project where we will deploy our different resources and models. 
+After creating the hub in Azure AI Studio, we can now create a project where we will deploy our different resources and models. 
 
 1. When inside your hub, under **Projects**, now click **+ New project** on the hub overview page. A **Create a project** dialog opens up. 
 

@@ -26,6 +26,16 @@ Then, we will analyze the classical development cycle of AI in order to:
 
 Finally, we will explain how to strengthen this development lifecycle in order to secure it against the threats we have highlighted and ideally against those we do not yet know. For that we will put forward a certain number of good practices and tools which will allow you to achieve a (more) trustworthy AI Lifecycle.
 
+## Prerequisites
+
+Before starting this module, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructions:
+* [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
+* [Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
+* [Getting started with Azure for your environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/getting-started-with-azure.md) 
+* [Using the Jupyter notebook in Azure Data Studio](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/using-jupyter-notebooks-in-azure-data-studio.md)
+* [Setting up an Azure DevOps environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/setting-up-an-azure-devops-env.md)
+* [Leveraging Counterfit](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/leveraging-counterfit.md)
+
 ## Data
 
 For the sake of the Proof of Concept available in the walkthrough, we use the [German Traffic Sign Recognition Benchmark](https://benchmark.ini.rub.de/gtsrb_news.html).

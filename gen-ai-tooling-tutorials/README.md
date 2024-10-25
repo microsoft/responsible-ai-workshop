@@ -16,7 +16,7 @@ Eventually, the companion eponym presentation [Building and using Generative AI 
 
 Before starting this module, you should be familiar with the [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/). Consider completing the [Introduction to Azure AI Studio] module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) before starting this one.
 
-For the sake of the hands-on, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructed:
+For the sake of the hands-on, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructions:
 * [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
 * [Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
 * [Getting started with Azure for your environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/getting-started-with-azure.md) 

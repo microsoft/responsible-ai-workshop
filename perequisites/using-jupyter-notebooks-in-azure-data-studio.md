@@ -9,7 +9,7 @@ To use the Jupyter notebook in Azure Data Studio, proceed with the following ste
 1. Access the ML workspace you created under recent resources or by looking up Machine Learning in the search bar and selecting your workspace. 
 
 <div style="text-align: center;">
-        <img src="Images/4.1.png" alt="Azure"  height="175">
+        <img src="Images/4.1.png" alt="Azure"  height="225">
 </div>
 
 2. Click on **Launch Studio**. 
@@ -17,19 +17,19 @@ To use the Jupyter notebook in Azure Data Studio, proceed with the following ste
 3. Select **Notebooks** from the side bar.  
 
 <div style="text-align: center;">
-        <img src="Images/4.2.png" alt="Azure Machine Learning"  height="250">
+        <img src="Images/4.2.png" alt="Azure Machine Learning"  height="330">
 </div>
 
 4. Click on the Add file button and then on **Upload files**. 
 
  <div style="text-align: center;">
-        <img src="Images/4.3.png" alt="Azure Machine Learning"  height="200">
+        <img src="Images/4.3.png" alt="Azure Machine Learning"  height="240">
 </div>
 
 5. Navigate to the cloned repo and select the your notebook and hit **Open**. This will open the notebook in Azure Data Studio, and you will be able to execute its cells after connecting your compute instance created as part of your ML workspace setup.  
 
  <div style="text-align: center;">
-        <img src="Images/4.4.png" alt="Azure Machine Learning"  height="200">
+        <img src="Images/4.4.png" alt="Azure Machine Learning"  height="250">
 </div>
 
 At this stage, you’re all set! You can either continue with the execution of the cells of the notebook in Azure Data Studio or choose **Edit in VS Code** next to the compute field highlighted above to open the notebook in Visual Studio Code. You can download VS Code for your environment [here](https://code.visualstudio.com/).

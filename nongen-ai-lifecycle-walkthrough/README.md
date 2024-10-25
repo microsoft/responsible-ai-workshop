@@ -9,6 +9,15 @@ In terms of non-Generative AI product development, it is illustrated by followin
 
 This walkthrough is meant to accompany the eponym illustration guide [Implementing a responsible AI lifecycle for MLOps processes](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-lifecycle-walkthrough/docs/implementing-responsible-ai-lifecycle.docx), which tackles exactly this use case and can be found under the docs folder.
 
+## Prerequisites
+
+Before starting this module, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructions:
+* [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
+* [Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
+* [Getting started with Azure for your environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/getting-started-with-azure.md) 
+* [Using the Jupyter notebook in Azure Data Studio](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/using-jupyter-notebooks-in-azure-data-studio.md)
+* [Setting up an Azure DevOps environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/setting-up-an-azure-devops-env.md)
+
 ## Data
 
 For the sake of the walkthrough, we use the [UCI adult dataset](https://archive.ics.uci.edu/ml/datasets/Adult). 

@@ -20,7 +20,7 @@ Combined with the [Jupyter extension](https://marketplace.visualstudio.com/items
 
 Instructions on how to get started with notebooks in VS code (optionally using container) are provided [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks). 
 
-## CodeSpaces 
+## GitHub CodeSpaces 
 
 [GitHub CodeSpaces](https://docs.github.com/en/codespaces) provide you with cloud-hosted environments where you can edit your notebooks using VS Code or your web browser and store them on GitHub.  
 
