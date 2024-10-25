@@ -31,7 +31,7 @@ After completing this module, and to further continue your learning, you might c
 * [Evaluate generative AI applications](https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/) learning path.
 * [Operationalize AI responsibly with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/) learning path.
 
-You might also read up on [Azure AI Content Saftey](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/) and see what you can adopt for your usage. For more illustrations, see Azure AI Content Safety [playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHjaQ9bJjyp1T7FeCbmVcPkQ).
+You might also read up on [Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/) and see what you can adopt for your usage. For more illustrations, see Azure AI Content Safety [playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHjaQ9bJjyp1T7FeCbmVcPkQ).
 
 Similalry, you might also check out our [Generative AI Learning collection](https://learn.microsoft.com/en-us/collections/zpy7c8zmq6ky0z?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
 
