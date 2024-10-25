@@ -34,7 +34,7 @@ Each of the above modules consists of a series of guide(s), presentation(s), and
 Besides the guides and presentations shared as part of it, the workshop is also meant to provide hands-ons. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes for some of the tutorials that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
 
 Before you begin, you will need to clone this repos and also setup your execution environment: 
-* Various options are available to clone this repo. See [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/cloning-the-repo.md) for more information.
+* Various options are available to clone this repo. See [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md) for more information.
 * Regarding your execution environment, and the (open-source) software and (Azure AI) services being featured throughout the workshop, see [Fulfilling the prerequisites](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md) for more information.
   
 # Contributing
