@@ -33,7 +33,7 @@ After completing this module, and to further continue your learning, you might c
 
 You might also read up on [Azure AI Content Saftey](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/) and see what you can adopt for your usage. For more illustrations, see Azure AI Content Safety [playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHjaQ9bJjyp1T7FeCbmVcPkQ).
 
-Also check out our [Generative AI Learning collection](https://learn.microsoft.com/en-us/collections/zpy7c8zmq6ky0z?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
+Similalry, you might also check out our [Generative AI Learning collection](https://learn.microsoft.com/en-us/collections/zpy7c8zmq6ky0z?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
 
 ## References
 The above-mentioned AI Risk Management Framework (AI RMF 1.0) is a voluntary framework developed that aims to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems. It is intended to help organizations better manage risks to individuals, organizations, and society associated with AI:
