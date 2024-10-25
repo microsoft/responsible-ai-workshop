@@ -1,6 +1,6 @@
 # Responsible AI Workshop - Leveraging Counterfit 
 
-To perform the attack on (non-Generative AI models, we use the Counterfit tool which is a command-line tool that provides a generic automation layer for adversarial AI frameworks such as [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) and [Text Attack](https://github.com/QData/TextAttack).  
+To perform the attack on (non-Generative) AI models, we use the Counterfit tool which is a command-line tool that provides a generic automation layer for adversarial AI frameworks such as [Adversarial Robustness Toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) and [Text Attack](https://github.com/QData/TextAttack).  
 
 This tool will allow you to implement attack scenarios on simple Machine Learning (ML) models.  
 
