@@ -49,7 +49,7 @@ To clone the repo on your Windows 10 local machine, perform the following steps:
 
 2. In the pop-up window, click **Install**. Follow the instructions. 
 
-3. Open a browser session and navigate on GitHub to the main page of [the Responsible AI Workshop repo ](https://github.com/microsoft/responsible-ai-workshop). 
+3. Open a browser session and navigate on GitHub to the main page of this [GitHub repo](https://github.com/microsoft/responsible-ai-workshop). 
 
 4. Click **Clone** or **download**. 
 
@@ -59,7 +59,7 @@ To clone the repo on your Windows 10 local machine, perform the following steps:
 
 7. Click **Clone**. 
 
-See [Cloning a repository from GitHub to GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop). 
+For more information see [Cloning a repository from GitHub to GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop). 
 
  
 

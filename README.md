@@ -34,12 +34,12 @@ Each of the above modules consists of a series of guide(s), presentation(s), and
 Besides the guides and presentations shared as part of it, the workshop is also meant to provide hands-ons. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes for some of the tutorials that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
 
 Before you begin, you will need to clone this repos and also setup your execution environment: 
-* Various options are available to clone this repo. Please refer to [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/cloning-the-repo) for more information.
-* Regarding your execution environment, and the (open-source) software and (Azure AI) services being featured throughout the workshop, please refer to [Fulflling the prerequisites](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/fulfilling-prerequisites) for more information.
+* Various options are available to clone this repo. See [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/cloning-the-repo) for more information.
+* Regarding your execution environment, and the (open-source) software and (Azure AI) services being featured throughout the workshop, see [Fulfilling the prerequisites](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md) for more information.
   
 # Contributing
 
-This project welcomes contributions and suggestions. (Please refer to our [note](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/note-for-contributors) for advices on editing contents so that they remain consistent and optimized for readers' understanding.) 
+This project welcomes contributions and suggestions. (For advices on editing contents so that they remain consistent and optimized for readers' understanding, see [note](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/note-for-contributors.md).) 
 
 Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -58,6 +58,6 @@ see the [LICENSE](LICENSE) file, and grant you a license to any code in the repo
 Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
 The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks. Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+Privacy information can be found at https://privacy.microsoft.com/en-us/.
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel or otherwise.

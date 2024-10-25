@@ -1,10 +1,12 @@
 # Responsible AI Workshop - Deploying an LLM model in Azure and using it in Python 
 
-Let's look at how to create a LLM model with Azure and how to deploy it in Python. In this note, we will deploy a GPT-3.5 model, but you can deploy all the OpenAI models from the [Model Catalog](https://ai.azure.com/explore/models). Please refer to [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-35) for additional information. 
+Let's look at how to create a LLM model with Azure and how to deploy it in Python. In this note, we will deploy a GPT-3.5 model, but you can deploy all the OpenAI models from the [Model Catalog](https://ai.azure.com/explore/models). for more information see [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#gpt-35). 
 
 ## Prerequisites 
 
-Please make sure you have completed all the instructions in [Getting started with Azure](getting-started-with-azure.md) beforehand so that you have created your Azure account, your Hub and your project! 
+Please make sure you have completed all the instructions in [Getting started with Azure](getting-started-with-azure.md) beforehand so that you have created your Azure account, your Hub and your project in [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/)!  
+
+You might consider completing the [Introduction to Azure AI Studio] module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/).
 
 ## Deploying an Large Language Model (LLM) in Azure
 

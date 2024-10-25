@@ -12,8 +12,35 @@ As such, in terms of learning objectives, the guide [Building and using Generati
 
 Eventually, the companion eponym presentation [Building and using Generative AI responsibly with Azure and beyond](https://github.com/microsoft/responsible-ai-workshop/blob/main/gen-ai-tooling-tutorials/ppts/building-and-using-gen-ai-responsibly.pptx) provides a ready-to-use fully annotated content to organize a dedicated session.
 
-## Additional references
-* [AI Risk Management Framework (AI RMF)](https://www.nist.gov/itl/ai-risk-management-framework)
-* [AI Risk Management Framework: Generative Artificial Intelligence Profile](https://airc.nist.gov/docs/NIST.AI.600-1.GenAI-Profile.ipd.pdf)
+## Prerequisites
+
+Before starting this module, you should be familiar with the [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/). Consider completing the [Introduction to Azure AI Studio] module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) before starting this one.
+
+For the sake of the hands-on, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructed:
+•	[Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
+•	[Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
+•	[Getting started with Azure for your environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/getting-started-with-azure.md) 
+•	[Deploying a Generative AI model in Azure and using it in Python](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/deploying-a-model-in-Azure-and-using-it-in-python.md)
+
+With these prerequisites in place, you will be able to follow along with the hands-on tutorials and build and use Generative AI responsibly.
+
+## Continuing your learning
+
+After completing this module, and to further continue your learning, you might consider the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) paths and modules:
+* [Responsible Generative AI](https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/) module.
+* [Evaluate generative AI applications](https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/) learning path.
+* [Operationalize AI responsibly with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/) learning path.
+
+You might also read up on [Azure AI Content Saftey](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/) and see what you can adopt for your usage. For more illustrations, see Azure AI Content Safety [playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHjaQ9bJjyp1T7FeCbmVcPkQ).
+
+Also check out our [Generative AI Learning collection](https://learn.microsoft.com/en-us/collections/zpy7c8zmq6ky0z?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
+
+## References
+The above-mentioned AI Risk Management Framework (AI RMF 1.0) is a voluntary framework developed that aims to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems. It is intended to help organizations better manage risks to individuals, organizations, and society associated with AI:
+* [NIST-AI-100-1 AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework): a Framework intended to build on, align with, and support AI risk management efforts by others. For more information, see the [NIST AI RMF homepage](https://www.nist.gov/itl/ai-risk-management-framework). See also the [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) for suggested actions for achieving the outcomes laid out in the framework.
+* [NIST-AI-600-1 AI Risk Management Framework: Generative Artificial Intelligence Profile](https://doi.org/10.6028/NIST.AI.600-1): a profile that can help organizations identify unique risks posed by Generative AI and proposes actions for Generative AI risk management that best aligns with their goals and priorities.
+
+## Additional resources
+To better understand the risks and harms, you might also consider the following resources:
 * [MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems (ATLAS) Framework](https://atlas.mitre.org/matrices/ATLAS)
 * [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)

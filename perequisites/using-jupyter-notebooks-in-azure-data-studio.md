@@ -4,6 +4,8 @@ For some modules' guides of this workshop, you are advised to [use Jupyter noteb
 
 [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio) is a lightweight, cross-platform data management and development tool for data professionals. As such, it takes advantage of an Azure ML workspace, which is a foundational block used to experiment, train, and deploy Machine Learning models. You can download Azure Data Studio for your environment [here](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall).
 
+To use the Jupyter notebook in Azure Data Studio, proceed with the following steps:
+
 1. Access the ML workspace you created under recent resources or by looking up Machine Learning in the search bar and selecting your workspace. 
 
 <div style="text-align: center;">
