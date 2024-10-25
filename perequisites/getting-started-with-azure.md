@@ -14,21 +14,23 @@ As part of Microsoft's commitment to responsible AI, the Azure OpenAI Service is
 
 Azure OpenAI Service is made available to customers under the terms governing their subscription to Microsoft Azure Services, including [Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) such as the Universal License Terms applicable to Microsoft Generative AI Services and the product offering terms for Azure OpenAI. Please review these terms carefully as they contain important conditions and obligations governing your use of Azure OpenAI Service.
 
- For more information, see [Limited access to Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext).
+ For more information, see [Limited access to Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext). 
 
-## Create a hub in Azure AI Studio 
+## Create a hub in Azure AI Studio
 
-A hub is a collaborative group of projects and connections. So, to create projects, you will need first to create a hub! 
+A hub is a collaborative group of projects and connections. To create projects, you will need first to create a hub! 
 
 Process with the following steps: 
 
 1. Open a browsing session and navigate to [Azure AI Studio](https://ai.azure.com/).  
 
- ![Azure AI Studio](Images/1.1.png)
+    <div style="text-align: center;">
+        <img src="Images/1.1.png" alt="Azure AI Studio"  height="400">
+    </div>
 
-1. At the top right corner, click **Sign-in**, and sign-in with your credentials. 
+2. At the top right corner, click **Sign-in**, and sign-in with your credentials. 
 
-2. On the left-side pane, go to **All hubs**. If this is your first project in the Studio, create a hub by clicking on **New hub**. A **Create a new hub** dialog opens up.   
+3. On the left-side pane, go to **All hubs**. If this is your first project in the Studio, create a hub by clicking on **New hub**. A **Create a new hub** dialog opens up.   
 
     a. In **Hub name**, choose a hub name. 
 
@@ -43,14 +45,15 @@ Process with the following steps:
     e. In **Connect Azure AI Services or Azure OpenAI**, select your Azure OpenAI service instance. Or click **Create new AI Services** to create one. To obtain access to the Azure OpenAI service, you have to priorly submit a registration form [here](https://aka.ms/oai/access). 
 
     f. In **Connect Azure AI Search**, ensure **Skip connecting** is selected. 
-
-     ![Create a new hub](Images/1.2.png)
+        <div style="text-align: center;">
+            <img src="Images/1.2.png" alt="Create a new hub"  height="400">
+        </div>
 
     g. Click **Next**. 
 
-## Create a project 
+## Create a Project 
 
-After creating the Hub, we can now create a project where we will deploy our different resources and models. 
+After creating the hub, we can now create a project where we will deploy our different resources and models. 
 
 1. When inside your hub, under **Projects**, now click **+ New project** on the hub overview page. A **Create a project** dialog opens up. 
 
@@ -60,6 +63,8 @@ After creating the Hub, we can now create a project where we will deploy our dif
 
 2. Once the project is created, a **Project overview** is displayed in the main window of Azure AI Studio. 
 
-![Project Overview](Images/1.3.png)
+<div style="text-align: center;">
+    <img src="Images/1.3.png" alt="Project Overview"  height="400">
+</div>
  
 

@@ -21,7 +21,7 @@ Proceed with the following steps:
 4. A **Deploy model gpt-35-turbo** dialog opens up. 
 
     <div style="text-align: center;">
-        <img src="Images/2.1.png" alt="Deploy model gpt-35-turbo"  height="250">
+        <img src="Images/2.1.png" alt="Deploy model gpt-35-turbo"  height="400">
     </div>
 
 
@@ -32,7 +32,7 @@ Proceed with the following steps:
 1. An overview of the deployment is then displayed in the main window of Azure AI Studio. You can see or access all the deployment’s details, including the API key required later. 
 
     <div style="text-align: center;">
-        <img src="Images/2.2.png" alt="Model"  height="200">
+        <img src="Images/2.2.png" alt="Model"  height="300">
     </div>
 
 ## Using it in Python 
