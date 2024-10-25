@@ -34,7 +34,7 @@ Each of the above modules consists of a series of guide(s), presentation(s), and
 Besides the guides and presentations shared as part of it, the workshop is also meant to provide hands-ons. Therefore, basic knowledge of any version of Python is a prerequisite. It also assumes for some of the tutorials that you have prior experience training machine learning (ML) models with Python using open-source frameworks like Scikit-Learn, PyTorch, and TensorFlow.
 
 Before you begin, you will need to clone this repos and also setup your execution environment: 
-* Various options are available to clone this repo. See [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/cloning-the-repo) for more information.
+* Various options are available to clone this repo. See [Cloning the repo](https://github.com/microsoft/responsible-ai-workshop/tree/master/prerequisites/cloning-the-repo.md) for more information.
 * Regarding your execution environment, and the (open-source) software and (Azure AI) services being featured throughout the workshop, see [Fulfilling the prerequisites](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md) for more information.
   
 # Contributing
@@ -50,7 +50,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+# Legal notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
 see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE](LICENSE-CODE) file.

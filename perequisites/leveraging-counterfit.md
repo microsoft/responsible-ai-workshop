@@ -4,7 +4,7 @@ To perform the attack on (non-Generative AI models, we use the Counterfit tool w
 
 This tool will allow you to implement attack scenarios on simple Machine Learning (ML) models.  
 
-It is available on this [GitHub repository](https://github.com/Azure/counterfit) and you’ll find the instructions to set up the tool on README.md. However, if you occur the error described [here](https://learn.microsoft.com/en-us/troubleshoot/azure/azure-container-instances/configuration-setup/docker-hub-rate-limit-registryerrorresponse), follow this tutorial: 
+It is available on this [GitHub repo](https://github.com/Azure/counterfit) and you’ll find the instructions to set up the tool on README.md. However, if you occur the error described [here](https://learn.microsoft.com/en-us/troubleshoot/azure/azure-container-instances/configuration-setup/docker-hub-rate-limit-registryerrorresponse), follow this tutorial: 
 
 1. You will create a environment in [conda](https://anaconda.org/anaconda/conda), launch the ananconda navigator app. Then go to environments and select create. 
 

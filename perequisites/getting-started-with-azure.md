@@ -14,11 +14,11 @@ As part of Microsoft's commitment to responsible AI, the Azure OpenAI Service is
 
 Azure OpenAI Service is made available to customers under the terms governing their subscription to Microsoft Azure Services, including [Product Terms](https://www.microsoft.com/licensing/terms/welcome/welcomepage) such as the Universal License Terms applicable to Microsoft Generative AI Services and the product offering terms for Azure OpenAI. Please review these terms carefully as they contain important conditions and obligations governing your use of Azure OpenAI Service.
 
- Please refer to [Limited access to Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext) for additional information. 
+ For more information, see [Limited access to Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/limited-access?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext).
 
-## Create an Azure AI Hub 
+## Create a hub in Azure AI Studio 
 
-A hub is a collaborative group of projects and connections. To create projects, you will need first to create a Hub! 
+A hub is a collaborative group of projects and connections. So, to create projects, you will need first to create a hub! 
 
 Process with the following steps: 
 
@@ -48,7 +48,7 @@ Process with the following steps:
 
     g. Click **Next**. 
 
-## Create a Project 
+## Create a project 
 
 After creating the Hub, we can now create a project where we will deploy our different resources and models. 
 

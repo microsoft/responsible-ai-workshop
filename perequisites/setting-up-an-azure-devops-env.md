@@ -1,6 +1,6 @@
 # Responsible AI Workshop - Setting up an Azure DevOps environment 
 
-To set up the Dev(Sec)Ops environment, perform the following steps: 
+To set up the Dev(Sec)Ops environment, proceed with the following steps: 
 
 1. Sign in to [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min) (with your Azure account). You can click on **Start free** if it is your first time using Azure DevOps or [Sign in to Azure DevOps](https://go.microsoft.com/fwlink/?LinkId=2014676&githubsi=true&clcid=0x409&WebUserId=50395eaee24b4a028eaf6120cb6392cc) if you already have an account. 
 

@@ -1,6 +1,6 @@
 # Responsible AI Workshop - Note for contributors 
 
-This note is aimed at content contributors on this [Responsible AI Workshop](https://github.com/microsoft/responsible-ai-workshop) GitHub repo. It provides advice on editing documents on this repo so that they remain consistent and optimized for readers' understanding. 
+This note is aimed at content contributors on this repo. It provides advice on editing documents on this repo so that they remain consistent and optimized for readers' understanding. 
 
 ## Notes management 
 
