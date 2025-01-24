@@ -24,7 +24,7 @@ For the sake of the hands-on, and as far as your execution environment is concer
 * [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
 * [Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
 * [Getting started with Azure for your environment](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/getting-started-with-azure.md) 
-* [Deploying a Generative AI model in Azure and using it in Python](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/deploying-a-model-in-Azure-and-using-it-in-python.md)
+* [Deploying a generative AI model in Azure and using it in Python](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/deploying-a-model-in-Azure-and-using-it-in-python.md)
 
 With these prerequisites in place, you will be able to follow along with the hands-on tutorials and build and use autonomous intelligent agents and agentic applications responsibly.
 

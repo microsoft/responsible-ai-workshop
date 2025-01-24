@@ -14,7 +14,7 @@ Eventually, the companion eponym presentation [Building and using generative AI 
 
 ## Prerequisites
 
-Before starting this module, you should be familiar with the [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio/). Consider completing the [Introduction to Azure AI Foundry] module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) before starting this one.
+Before starting this module, you should be familiar with the [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio/). Consider completing the [Introduction to Azure AI Foundry](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/) module on [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) before starting this one.
 
 For the sake of the hands-on, and as far as your execution environment is concerned, we recommend that you read the following notes and ensure that the requirements are fulfilled as per instructions:
 * [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
