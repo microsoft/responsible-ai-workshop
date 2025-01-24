@@ -1,15 +1,15 @@
 
 ![Workshop logo](https://github.com/microsoft/responsible-ai-workshop/blob/main/images/rai_ws_banner.png)
 
-Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy (non-Generative vs. Generative) Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
+Responsible innovation is top of mind. As such, the tech industry as well as a growing number of organizations of all kinds in their digital transformation are being called upon to develop and deploy (non-generative, a.k.a. traditional, vs. generative) Artificial Intelligence (AI) technologies and Machine Learning (ML)-powered systems (products or services) and/or features (all referred as to AI systems below) more responsibly. And yet many organizations implementing such AI systems report being unprepared to address AI risks and failures, and struggle with new challenges in terms of governance, security and compliance.
 
-Advancements in AI, and more specifically in Generative AI, are indeed different than other technologies because of the pace of innovation. There has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level. 
+Advancements in AI, and more specifically in generative AI, are indeed different than other technologies because of the pace of innovation. There has been hundreds of research papers published every year in the past few years -, but also because of its proximity to human intelligence, impacting us at a personal and societal level. 
 
 There are a number of challenges and questions raised through the use of AI technologies. We refer to these as socio-technical impacts. All of these have given rise to an industry debate about how the world should/shouldn't use these new capabilities. It isn't because you can do something that you should necessarily do it. 
 
 This project is an attempt to introduce and illustrate the use of: 
-* Resources designed to help you responsibly use (non-Generative vs. Generative) AI at every stage of innovation - from ideation to design, development, deployment, and beyond. 
-* Available toolkits & frameworks that help you integrate relevant Responsible AI features & guardrails into your (non-Generative vs. Generative) AI environment by themes and through the lifecycle stages of your AI system (MLOps vs. LLMOps, i.e., MLOps for LLMs).
+* Resources designed to help you responsibly use (non-generative vs. generative) AI at every stage of innovation - from ideation to design, development, deployment, and beyond. 
+* Available toolkits & frameworks that help you integrate relevant Responsible AI features & guardrails into your (non-generative vs. generative) AI environment by themes and through the lifecycle stages of your AI system (MLOps vs. GenAIOps, a.k.a. LLMOps, i.e., MLOps for LLMs).
 * Activities to strengthen gradually the confidence that we can have in these technologies and therefore facilitate its adoption in contexts where it would have a great responsibility.
 
 It is thus designed to help you or your "customers", whoever they are, to put Responsible AI into practice for your AI-powered solutions throughout their lifecycle.
@@ -21,10 +21,11 @@ It is thus designed to help you or your "customers", whoever they are, to put Re
 This project is a work in progress (WIP).
 
 This project currently contains the following modules:
-* [Towards your own Responsible AI journey](https://github.com/microsoft/responsible-ai-workshop/tree/master/responsible-ai-journey)
-* [Building and using Generative AI responsibly](https://github.com/microsoft/responsible-ai-workshop/tree/main/gen-ai-tooling-tutorials)
-* [Responsible AI Tooling Tutorials for Non-Generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/master/nongen-ai-tooling-tutorials)
-* [End-to-End Responsible AI Lifecycle Walkthrough for Non-Generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/main/nongen-ai-lifecycle-walkthrough)
+* [Towards your own responsible AI journey](https://github.com/microsoft/responsible-ai-workshop/tree/master/responsible-ai-journey)
+* [Building and using generative AI responsibly](https://github.com/microsoft/responsible-ai-workshop/tree/main/gen-ai-tooling-tutorials)
+* [Exploring the risks of intelligent agents](https://github.com/microsoft/responsible-ai-workshop/tree/main/ai-agents-tutorials) 
+* [Responsible AI tooling Tutorials for non-generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/master/nongen-ai-tooling-tutorials)
+* [End-to-end responsible AI lifecycle walkthrough for non-generative AI](https://github.com/microsoft/responsible-ai-workshop/tree/main/nongen-ai-lifecycle-walkthrough)
 * [Towards a (more) trustworthy AI lifecycle](https://github.com/microsoft/responsible-ai-workshop/tree/main/trustworthy-ai-lifecycle)
 
 Each of the above modules consists of a series of guide(s), presentation(s), and tutorial(s)/walkthrough(s) for data engineers, data scientists, ML developers, ML engineers, and other AI practitioners, as well as potentially anyone interested considering the wide range of socio-technical aspects involved in the subject.

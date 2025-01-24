@@ -1,6 +1,6 @@
-# Responsible AI Workshop - End-to-End Responsible AI Lifecycle Walkthrough for non-Generative AI
+# Responsible AI Workshop - End-to-end responsible AI lifecycle walkthrough for non-generative AI
 
-This module contains an end-to-end walkthrough of a Responsible AI Lifecycle (RAIL) according to the key phases of a typical product development lifecycle while recognizing that AI product development often cycles through these phases iteratively:
+This module contains an end-to-end walkthrough of a responsible AI lifecycle (RAIL) according to the key phases of a typical product development lifecycle while recognizing that AI product development often cycles through these phases iteratively:
 * **Assess & Prepare**. Evaluate the products' benefits, the technology, the potential risks, and the team.
 * **Design, Build & Document**. Review the impacts, unique considerations, and the documentation practice.
 * **Validate & Support**. Select the testing procedures and the support to ensure products work as intended.

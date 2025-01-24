@@ -1,6 +1,6 @@
-# Responsible AI Workshop - Non-Generative AI Tooling Tutorials
+# Responsible AI Workshop - Non-generative AI tooling tutorials
 
-This module contains a series of hands-on tutorials for Microsoft's most prominent Responsible AI tools/toolkits for non-Generative AI systems.
+This module contains a series of hands-on tutorials for Microsoft's most prominent responsible AI tools/toolkits for non-generative, a.k.a. traditional, AI systems.
 
 It is primarily designed for developers and data scientists to provide them with jump-start tutorials for using each tool, in the form of Jupyter notebooks. 
 
@@ -22,7 +22,7 @@ We investigate three categories of Responsible AI tools:
 
 Responsible AI is still an underrated subject among data scientists, ML engineers, and other AI practitioners more broadly, and today there is a huge gap between principles and tangible actions when it comes in their day-to-day development lifecycle to implement (more) responsible (non-Generative vs. Generative) AI systems: the so-called "Responsible AI Gap".
 
-These tutorials are meant to accompany the guide [Leveraging Responsible AI Tooling for your non-Generative AI-based solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-tooling-tutorials/docs/leveraging-responsible-ai-tooling.docx), which tackles exactly this issue and can be found under the docs folder.
+These tutorials are meant to accompany the guide [Leveraging responsible AI tooling for your non-generative AI-based solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-tooling-tutorials/docs/leveraging-responsible-ai-tooling.docx), which tackles exactly this issue and can be found under the docs folder.
 
 As such, in terms of learning objectives for non-Generative AI systems, this guide is intended to give you an overview of the most prominent Responsible AI tools & toolkits we open sourced as (standalone) libraries and dashboards or integrated into [Azure Machine Learning (Azure ML)](https://azure.microsoft.com/en-us/services/machine-learning/), its [responsible machine learning capabilities](https://azure.microsoft.com/en-us/services/machine-learning/responsibleml/), and its [MLOps capabilities](https://azure.microsoft.com/en-us/services/machine-learning/), and where to leverage them in such AI systems' development lifecycle. 
 

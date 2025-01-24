@@ -1,4 +1,4 @@
-# Responsible AI Workshop - Towards a (more) trustworthy AI lifecycle for non-Generative AI
+# Responsible AI Workshop - Towards a (more) trustworthy AI lifecycle for non-generative AI
 
 Artificial Intelligence (AI) is being used more and more, and we can find it everywhere today. From recommending content on social networks to optimizing the battery of our smartphone for non-Generative AI, and with now the ability to create create new data, including visual content, text, audio, code etc.
 for Generative AI, this technology has made its mark because of the impressive progress it allows in different areas. 
@@ -7,11 +7,11 @@ However, among all the observed use cases, we notice that some sectors are reluc
 
 This mistrust is quite normal and comes mainly from the fact that we do not know to what extent, and to what degree, we can trust this technology. The fields of autonomous cars or medical diagnostics are unforgiving fields where there is no room for error.
 
-The [MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems (ATLAS™)](https://atlas.mitre.org/) framework lists a number of attacks that can be implemented against a ML model. 
+The [MITRE Adversarial Threat Landscape for Artificial-Intelligence Systems (ATLAS™)](https://atlas.mitre.org/) framework lists a number of attacks that can be implemented against a Machine Learning (ML) model. 
 
 Among them, adversarial attacks (and perturbations) are a growing concern in the field of Machine Learning (ML). As an illustration, you will find, in this repository, an [implementation of an adversarial attack againt a ML model](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-tooling-tutorials/hands-on-tutorials/adverserial_attacks_counterfit/adverserial_attacks_counterfit.ipynb) executed against a computer vision model using [Counterfit](https://github.com/Azure/counterfit), i.e., a tool specially designed to carry out these types of attacks. 
 
-In addition to this demonstration, the guide [Framing a (more) Trustworthy AI Lifecycle for your AI-powered solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/trustworthy-ai-lifecycle/docs/framing-trustworthy-ai-lifecycle.docx) goes into more details about how the attack works and addresses the question of how to build trust in a ML-based project and the related development lifecycle.
+In addition to this demonstration, the guide [Framing a (more) trustworthy AI Lifecycle for your AI-powered solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/trustworthy-ai-lifecycle/docs/framing-trustworthy-ai-lifecycle.docx) goes into more details about how the attack works and addresses the question of how to build trust in a ML-based project and the related development lifecycle.
 
 The learning objectives of this guide are to help moving towards a (more) reliable AI lifecycle in order to gradually strengthen the trust we can have in this technology and therefore facilitate its adoption in contexts where it would have a great responsibility.
 
@@ -24,7 +24,7 @@ Then, we will analyze the classical development cycle of AI in order to:
 * Determine where potential vulnerabilities may lie
 * Establish a "North Star" to guide us in hardening this development lifecycle.
 
-Finally, we will explain how to strengthen this development lifecycle in order to secure it against the threats we have highlighted and ideally against those we do not yet know. For that we will put forward a certain number of good practices and tools which will allow you to achieve a (more) trustworthy AI Lifecycle.
+Finally, we will explain how to strengthen this development lifecycle in order to secure it against the threats we have highlighted and ideally against those we do not yet know. For that we will put forward a certain number of good practices and tools which will allow you to achieve a (more) trustworthy AI lifecycle.
 
 ## Prerequisites
 
