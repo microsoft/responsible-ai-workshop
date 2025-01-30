@@ -10,9 +10,16 @@ This module delves into the journey of building and using autonomous intelligent
 
 Design factors (use cases, environments, goals, etc.), behavioral composition of individual agents and related constraints, and orchestration differences to create complex behavior through composition of agents working together may lead to different architectures, differents frameworks that highligh different capabilites, etc., and thus ultimately to different associated risks and harms that are key to consider.
 
-In this context, this module explores the safety & security, and other risks associated with such agents and applications and provides insights on how to address these challenges to ensure a trustworthy future. 
+In this context, this module explores the safety & security, and other risks associated with such agents and applications and provides insights on how to address these challenges to ensure a trustworthy future.
 
-This is (still) a **Work-In-Progress** effort, and content will be added and updated over the time.
+To this end, the guide [Understanding intelligent agents in Artificial Intelligence](https://github.com/microsoft/responsible-ai-workshop/tree/main/ai-agents-tutorials/docs/understanding-ai-agents.docx) defines the notion of both an agent and agentic application, then reviews the possible architectures while drawing a parallel with the Copilots' environment. This guide is accompanied by a [Hands on tutorial](https://github.com/microsoft/responsible-ai-workshop/tree/main/ai-agents-tutorials/hands-on-tutorials) to "get your hands dirty" through the creation of two built-for-purpose agentic applications.
+ 
+Eventually, the companion eponym presentation [Understanding intelligent agents in Artificial Intelligence](https://github.com/microsoft/responsible-ai-workshop/tree/main/ai-agents-tutorials/docs/understanding-ai-agents.pptx) provides ready-to-use, fully annotated content to (let you) organize a dedicated session on the above.
+ 
+This primer is accompanied by a second guide [Securing intelligent agents in Artificial Intelligence](https://github.com/microsoft/responsible-ai-workshop/tree/main/ai-agents-tutorials/docs/securing-ai-agents.docx), which in turn on taht basis goes deeper on the notions of safety & security, and other risks associated with such agents and applications, and provides insights on how to address these challenges to help ensuring a trustworthy future.
+
+This is (still) a **Work-In-Progress** effort, and content will be added and updated over the time. It's all the more so that we live in a constantly evolving threats landscape, where consequently the risks and challenges associated with AI and intelligent agents are thus also constantly evolving... 
+(As for the rest of this Workshop, we welcome your feedback and contributions to this effort. Please feel free to open an issue or submit a pull request with your suggestions.)
 
 ## Prerequisites
 
