@@ -50,7 +50,7 @@ Before starting this module, and as far as your execution environment is concern
 In addition to the above content, you might consider the following Azure ML [RAI dashboard and scorecard samples](https://github.com/Azure/azureml-examples/tree/main/sdk/python/responsible-ai) to continue your learning journey. 
 
 To this end, you can first:
-* Watch a deep dive into the RAI dashboard and scorecard [here]. This video explains how to understand and assess your model insights in order to train and deploy your machine learning models more responsibly, demoes how to generate Responsible AI insights through CLI/SDK/UI in Azure ML, and also give you a tour of the RAI dashboard and scorecard.
+* Watch a deep dive into the RAI dashboard and scorecard [here](https://learn.microsoft.com/en-us/shows/ai-show/ep-63-deep-dive-into-responsible-ai-dashboard-and-scorecard). This video explains how to understand and assess your model insights in order to train and deploy your machine learning models more responsibly, demoes how to generate Responsible AI insights through CLI/SDK/UI in Azure ML, and also give you a tour of the RAI dashboard and scorecard.
 * Read more about how to generate the RAI dashboard [here](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-dashboard-sdk-cli?tabs=yaml) and RAI scorecard [here](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-scorecard). 
 
 ## Additional references
