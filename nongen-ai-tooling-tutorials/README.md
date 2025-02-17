@@ -1,12 +1,12 @@
 # Responsible AI Workshop - Non-generative AI tooling tutorials
 
-This module contains a series of hands-on tutorials for Microsoft's most prominent responsible AI tools/toolkits for non-generative, a.k.a. traditional, AI systems.
+This module contains a series of hands-on tutorials for Microsoft's most prominent responsible AI (RAI) tools/toolkits for non-generative, a.k.a. traditional, AI systems.
 
 It is primarily designed for developers and data scientists to provide them with jump-start tutorials for using each tool, in the form of Jupyter notebooks. 
 
 ## Overview of the available hands-on tutorials
 
-We investigate three categories of Responsible AI tools:
+We investigate three categories of RAI tools:
 
 * Tools to **understand the behavior of AI systems**. These in turn fall into two categories covered here:
     - Tools to assess and mitigate fairness issues. Here we focus on **Fairlearn**.
@@ -18,13 +18,13 @@ We investigate three categories of Responsible AI tools:
 * Tools to **protect AI systems' data assets**: 
     - Data anonymization using **Presidio**.
     - Differential privacy (DP) with the **SmartNoise** system.
-* Dashboards and user interfaces grouping such Responsible AI tools together under a single roof. Here we will look at the **Responsible-AI-Toolbox** (raiwidgets).
+* Dashboards and user interfaces grouping such RAI tools together under a single roof. Here we will look at the so-called **[Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox)** (with the RAI dashboard, widgets, and scorecard).
 
-Responsible AI is still an underrated subject among data scientists, ML engineers, and other AI practitioners more broadly, and today there is a huge gap between principles and tangible actions when it comes in their day-to-day development lifecycle to implement (more) responsible (non-Generative vs. Generative) AI systems: the so-called "Responsible AI Gap".
+Responsible AI is still an underrated subject among data scientists, ML engineers, and other AI practitioners more broadly, and today there is a huge gap between principles and tangible actions when it comes in their day-to-day development lifecycle to implement (more) responsible (non-generative vs. generative) AI systems: the so-called "Responsible AI Gap".
 
 These tutorials are meant to accompany the guide [Leveraging responsible AI tooling for your non-generative AI-based solutions](https://github.com/microsoft/responsible-ai-workshop/blob/main/nongen-ai-tooling-tutorials/docs/leveraging-responsible-ai-tooling.docx), which tackles exactly this issue and can be found under the docs folder.
 
-As such, in terms of learning objectives for non-Generative AI systems, this guide is intended to give you an overview of the most prominent Responsible AI tools & toolkits we open sourced as (standalone) libraries and dashboards or integrated into [Azure Machine Learning (Azure ML)](https://azure.microsoft.com/en-us/services/machine-learning/), its [responsible machine learning capabilities](https://azure.microsoft.com/en-us/services/machine-learning/responsibleml/), and its [MLOps capabilities](https://azure.microsoft.com/en-us/services/machine-learning/), and where to leverage them in such AI systems' development lifecycle. 
+As such, in terms of learning objectives for non-generative AI systems, this guide is intended to give you an overview of the most prominent RAI tools & toolkits we open sourced as (standalone) libraries and dashboards or integrated into [Azure Machine Learning (Azure ML)](https://azure.microsoft.com/en-us/services/machine-learning/), its [responsible machine learning capabilities](https://azure.microsoft.com/en-us/services/machine-learning/responsibleml/), and its [MLOps capabilities](https://azure.microsoft.com/en-us/services/machine-learning/), and where to leverage them in such AI systems' development lifecycle. 
 
 ## Links to complete notebook samples 
 
@@ -45,7 +45,15 @@ Before starting this module, and as far as your execution environment is concern
 * [Cloning this workshop GitHub repo](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/cloning-the-repo.md)
 * [Fulfilling the prerequisites for the workshop](https://github.com/microsoft/responsible-ai-workshop/blob/main/perequisites/fulfilling-prerequisites.md)
 
-## Additional resources
+## Continuing your learning journey
+
+In addition to the above content, you might consider the following Azure ML [RAI dashboard and scorecard samples](https://github.com/Azure/azureml-examples/tree/main/sdk/python/responsible-ai) to continue your learning journey. 
+
+To this end, you can first:
+* Watch a deep dive into the RAI dashboard and scorecard [here]. This video explains how to understand and assess your model insights in order to train and deploy your machine learning models more responsibly, demoes how to generate Responsible AI insights through CLI/SDK/UI in Azure ML, and also give you a tour of the RAI dashboard and scorecard.
+* Read more about how to generate the RAI dashboard [here](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-dashboard-sdk-cli?tabs=yaml) and RAI scorecard [here](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-scorecard). 
+
+## Additional references
 
 In addition to this module, for the learning objectives, you might also consider the following resources:
 * [ENISA Report: Artificial Intelligence Cybersecurity Challenges](https://www.enisa.europa.eu/publications/artificial-intelligence-cybersecurity-challenges)

@@ -35,9 +35,12 @@ For the sake of the hands-on, and as far as your execution environment is concer
 
 With these prerequisites in place, you will be able to follow along with the hands-on tutorials and build and use autonomous intelligent agents and agentic applications responsibly.
 
-## Continuing your learning
+## Continuing your learning journey
 
-After completing this module, and to further continue your learning, you might consider the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) paths and modules:
+In addition of the above first guide, you might check out the [10 Lessons teaching everything you need to know to start building AI Agents](https://github.com/microsoft/ai-agents-for-beginners). This course on GitHub covers the fundamentals of building AI Agents. Each lesson covers its own topic so start wherever you like.
+
+After completing this module, you might also consider the following [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) paths and modules, or GitHub courses, to continue your learning journey:
+* [21 Lessons teaching everything you need to know to start building Generative AI applications](https://github.com/microsoft/generative-ai-for-beginners/) course.
 * [Responsible generative AI](https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/) module.
 * [Build a RAG-based agent with your own data using Azure AI Foundry](https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/) module.
 * [Evaluate generative AI applications](https://learn.microsoft.com/en-us/training/paths/evaluate-generative-ai-apps/) learning path.
